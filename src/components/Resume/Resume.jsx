@@ -20,7 +20,7 @@ const Resume = () => {
             download my full resume!"
           </p>
           <a
-            href="/assets/projects/Krupali_Resume.pdf"
+            href="https://drive.google.com/uc?export=download&id=1VYQuMybJmqZU7C2gGg1g4P9voOef4iZA"
             download
             className={styles.downloadBtn}
           >
