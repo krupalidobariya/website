@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Warzon game",
+    "imageSrc": "projects/warzon.jpg",
+    "skills": ["Java", "Junit"],
+    "source": "https://github.com/Ankush4101/risk"
+  },
+  {
+    "title": "Call Management System",
+    "imageSrc": "projects/call.png",
+    "skills": ["Android", "Java", "HTML"],
+    "source": "https://github.com/krupalidobariya/Call_managment_system"
+  },
+  {
+    "title": "E-Book Dictionary",
+    "imageSrc": "projects/dic.jpg",
+    "skills": ["Python", "nltk", "tkinter"],
+    "source": "https://github.com/krupalidobariya/E-book_Dictionary"
+  },
+  {
+    "title": "Crime Detection",
+    "imageSrc": "projects/crime.png",
+    "skills": ["Python", "Machine Learning"],
+    "source": "https://github.com/krupalidobariya/Crime_detection"
+  },
+  {
+    "title": "Tea-Station Website",
+    "imageSrc": "projects/tea.png",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/krupalidobariya/Tea-station-website"
+  },
+  {
+    "title": "Smart Door lock-unlock",
+    "imageSrc": "projects/door.png",
+    "skills": ["C++", "Arduino", "IOT"],
+    "source": "https://github.com/krupalidobariya/Smart-Door_IOT"
+  },
+  {
+    "title": "Smart Message App",
+    "imageSrc": "projects/mes.png",
+    "skills": ["Java", "Android"],
+    "source": "https://github.com/krupalidobariya/Smart-Message"
+  },
+  {
+    "title": "Emoji Prediction",
+    "imageSrc": "projects/emoji.png",
+    "skills": ["LSTM", "keras"],
+    "source": "https://github.com/krupalidobariya/Smart-Message"
+  },
+
+  {
+    "title": "Flower Clssification",
+    "imageSrc": "projects/flower.jpg",
+    "skills": ["CNN", "ResNet", "MobileNet", "DenseNet"],
+    "source": "https://github.com/AbhiMavani/COMP6721-GroupU"
+  }
+]

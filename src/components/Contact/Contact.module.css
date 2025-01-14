@@ -1,0 +1,77 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: #03122d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: rgb(241, 238, 238);
+}
+
+.text p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: rgb(251, 250, 250);
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: rgb(246, 237, 237);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: rgb(251, 250, 250);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}

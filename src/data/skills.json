@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Swift",
+    "imageSrc": "skills/swift.png"
+  },
+  {
+    "title": "UI/UX",
+    "imageSrc": "skills/ui.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Agile",
+    "imageSrc": "skills/Agile.png"
+  },
+
+  {
+    "title": "ML",
+    "imageSrc": "skills/Ml.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "ioS",
+    "imageSrc": "skills/ios.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+]
