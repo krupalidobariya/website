@@ -108,10 +108,13 @@
 
   .content {
     align-items: center;
+    gap: 20px;
+    display: flex;
   }
 
   .title {
-    font-size: 36px;
+    font-size: 25px;
+    margin-top: 40px;
   }
 
   .description {

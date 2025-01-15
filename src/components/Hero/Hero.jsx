@@ -13,26 +13,31 @@ export const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (!isErasing && index < softwareDeveloper.length) {
-        setCurrentText((prev) => prev + softwareDeveloper[index]);
-        setIndex(index + 1);
-      } else if (isErasing && index > 0) {
-        setCurrentText((prev) => prev.slice(0, prev.length - 1));
-        setIndex(index - 1);
-      } else if (!isErasing && index === softwareDeveloper.length) {
-        setTimeout(() => {
-          setIsErasing(true);
-        }, 1000); 
-      } else if (isErasing && index === 0) {
-        setTimeout(() => {
-          setIsErasing(false);
-          setText(dataScientist);
-        }, 500); 
-      }
-    }, 150); 
+      setIndex((prevIndex) => {
+        if (!isErasing && prevIndex < softwareDeveloper.length) {
+          setCurrentText((prev) => prev + softwareDeveloper[prevIndex]);
+          return prevIndex + 1;
+        } else if (isErasing && prevIndex > 0) {
+          setCurrentText((prev) => prev.slice(0, prev.length - 1));
+          return prevIndex - 1;
+        } else if (!isErasing && prevIndex === softwareDeveloper.length) {
+          setTimeout(() => {
+            setIsErasing(true);
+          }, 1000);
+          return prevIndex;
+        } else if (isErasing && prevIndex === 0) {
+          setTimeout(() => {
+            setIsErasing(false);
+            setText(dataScientist);
+          }, 500);
+          return prevIndex;
+        }
+        return prevIndex;
+      });
+    }, 150);
 
     return () => clearInterval(interval);
-  }, [index, isErasing]);
+  }, [isErasing]);
 
   return (
     <section className={styles.container}>
