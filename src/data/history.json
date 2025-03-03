@@ -14,9 +14,19 @@
     "endDate": "May, 2022",
     "experiences": ["Worked on iOS Native"],
     "imageSrc": "history/meditab.jpg"
+  },{
+    "role": "Android Developer Intern",
+    "organisation": "Msquare Technologies",
+    "startDate": "Jun, 2022",
+    "endDate": "July, 2021",
+    "experiences": [
+      "Worked on Prediction tasks",
+      "Transformed and Visualized data"
+    ],
+    "imageSrc": "history/data.jpg"
   },
   {
-    "role": "Data science and Business analytics",
+    "role": "Data science and analytics",
     "organisation": "The Sparks Foundation",
     "startDate": "Jan, 2021",
     "endDate": "Feb, 2021",
@@ -26,4 +36,5 @@
     ],
     "imageSrc": "history/data.jpg"
   }
+  
 ]
